@@ -1,0 +1,51 @@
+.root {
+    -fx-background-color: linear-gradient(#800080, 	#0000FF);
+}
+#item {
+    -fx-background-color: black;
+    -fx-border-color: grey;
+    -fx-border-width: 2px;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 15px;
+}
+#title {
+    -fx-text-fill: black;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 50px;
+}
+.scroll-pane {
+    -fx-background-color: transparent;
+}
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+.thumb {
+    -fx-background-color: grey;
+    -fx-background-radius: 10px;
+}
+.track {
+    -fx-background-color: black;
+}
+.increment-button {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.decrement-button {
+    -fx-background-color: black;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.thumb:hover {
+    -fx-background-color: #393e46;
+    -fx-background-radius: 10px;
+}
+.button {
+    -fx-border-color: black;
+    -fx-border-width: 5px;
+    -fx-border-radius: 0px;
+    -fx-background-color: #393e46;
+    -fx-text-fill: white;
+    -fx-font-family: "Britannic Bold";
+    -fx-font-size: 15px;
+}
